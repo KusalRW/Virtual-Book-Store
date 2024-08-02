@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group_project_book_app.FXML_OwnerStartScreenController">
+   <children>
+      <Button fx:id="books_owner_start_screen" layoutX="32.0" layoutY="153.0" mnemonicParsing="false" onAction="#booksOwnerStartScreen" prefHeight="40.0" prefWidth="115.0" text="Books" />
+      <Button fx:id="customers_owner_start_screen" layoutX="428.0" layoutY="153.0" mnemonicParsing="false" onAction="#customersOwnerStartScreen" prefHeight="40.0" prefWidth="124.0" text="Customers" />
+      <Button fx:id="logout_owner_start_screen" layoutX="253.0" layoutY="290.0" mnemonicParsing="false" onAction="#logoutOwnerStartScreen" prefHeight="26.0" prefWidth="94.0" text="Logout" textFill="#c60505" />
+      <Label layoutX="200.0" layoutY="45.0" text="Welcome - Admin!" textFill="#051ceb">
+         <font>
+            <Font name="Monospaced Regular" size="19.0" />
+         </font></Label>
+      <ImageView fitHeight="110.0" fitWidth="151.0" layoutX="216.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Books.jpeg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

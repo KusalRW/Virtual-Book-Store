@@ -1,0 +1,6 @@
+John:Doe:1340.0
+trae:young:0.0
+Jelly:Fish:0.0
+Kus:Kus:2040.0
+Ayesha:Ayesha:1000.0
+TheBob:Bilal:0.0
